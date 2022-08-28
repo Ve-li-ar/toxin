@@ -1,0 +1,31 @@
+$mobile: 320px;
+$tablet: 772px;
+$desktop: 1150px;
+
+//@media (max-width: $desktop)
+//@media   (max-width: $tablet)
+//@media (max-width: $mobile)
+
+$basic-white: #ffffff;
+$basic-grey: #f1f1f1;
+$line-grey: #ececec;
+$basic-black: #000000;
+$social-black: #231f20;
+$light-black: #444444;
+$light-green: #63d1bb;
+$green: #56c3b2;
+$dark-green: #149080;
+$light-green-form: #62d1ba;
+$green-link: #46c1ae;
+$grey-background: #fbfbfb;
+
+$black-opacity1: rgba(0, 0, 0, 0.1);
+$black-opacity2: rgba(0, 0, 0, 0.2);
+$black-opacity3: rgba(0, 0, 0, 0.3);
+$black-opacity6: rgba(0, 0, 0, 0.6);
+$white-opacity1: rgba(255, 255, 255, 0.1);
+$white-opacity3: rgba(255, 255, 255, 0.3);
+$grey-opacity3: rgba(68, 68, 68, 0.3);
+$green-opacity3: rgba(99, 209, 187, 0.3);
+
+$OpenSans: "Open Sans" "Verdana", sans-serif;

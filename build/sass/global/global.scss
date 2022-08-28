@@ -1,0 +1,57 @@
+/* Общие стили. Каркас
+   ========================================================================== */
+
+.page-body {
+  margin: 0 auto;
+  font-family: $OpenSans;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content-box-component {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  margin: 0 auto;
+
+  @media (max-width: $desktop) {
+    width: 1050px;
+  }
+
+  @media (max-width: $tablet) {
+    width: 672px;
+  }
+
+  @media (max-width: $mobile) {
+    width: 260px;
+  }
+}
+
+.page-body__main {
+  position: relative;
+}
